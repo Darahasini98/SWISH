@@ -5,9 +5,13 @@ class Coffe
 	{
 		//System.out.println("Hello World!");
 		Scanner sc= new Scanner(System.in);
-		int Y =sc.nextInt();
+		String S =sc.nextLine();
+		String[] str = S.trim().split(" ");
+		for(int i=0;i<str.length;i++)
+			int arr[i] = Integer.parseInt(str[i]);
+		int Y =arr[0];
 		double X = (double)Y;
-		int Z = sc.nextInt();
+		int Z = arr[1];
 		double P = (double)Z;
 		//double X = sc.nextDouble();
 		//double P =sc.nextDouble();
