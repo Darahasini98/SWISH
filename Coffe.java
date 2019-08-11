@@ -23,7 +23,7 @@ class Coffe
 			X=X-D;
 		}
 		sum =sum+1.0;
-		System.out.println((int)sum);
+		System.out.println((int)sum+"\n");
 		}
 		else
 			System.out.println("invalid inputs");
